@@ -4,13 +4,69 @@
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+    #nav-menu {
+        display: block;
+        text-align: center;
+        margin: 15px;
+        padding: 0 30px;
+    }
   }
 @media (max-width: 768px) {
-  
+    .col2 {
+        display: none;
+    }
+
+    .box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer div {
+        float: left;
+    }
+
+    .col1 p {
+        display: none;
+    }
+
+    .col1 img{
+        float: left;
+        margin-bottom: 20px; 
+    }
+
+    .col3 {
+        display: none;
+    }
+
+    .col4 h4 {
+        float: left;
+        display: flex;
+        width: 100%;
+    }
+    
+    .col4 p {
+        text-align: left;
+    }
+
+    .orange img {
+        margin: 0px 10px;
+    }
+
 }
 @media (max-width: 576px) {
-  
+    .box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .col1 img{
+        float: left;
+        margin-bottom: 20px; 
+    }
+
+    .navbar img {
+        display: none;
+    }
 }
 
 /*---Firefox Bug Fix --*/
@@ -21,13 +77,7 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -65,15 +115,41 @@ figure {
     src: url('assets/fonts/Monsterrat-Normal.ttf') format('truetype');
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+div {
+    display: block;
+}
+
 /* NavBar*/
 .navbar {
     margin-top: auto;
+
+}
+
+.navbar .container-fluid {
+    display: flexbox;
+    float: right;
+}
+
+.navbar-toggler {
+    border: 0px solid;
+    float: right;
 }
 
 .navbar a {
     font-family: Monsterrat;
     font-style: normal;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
 }
 
 .navbar img {
@@ -91,18 +167,18 @@ figure {
 
 /* Sparkle video */
 .sparkle {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     height: auto;
-    padding: 0;
-    margin: auto;
+    padding: 0%;
+    margin: 0%;
 }
 
 /* TEXT */
 .text {
     padding-top: 150px;
     padding-bottom: 150px;
-    width: 470px;
+    width: 47%;
     text-align: center;
     font-size: 20px;
     font-family: Monsterrat;
@@ -135,7 +211,8 @@ img.sparkle {
     width: 100%;
     height: auto;
     flex-direction: row;
-    padding: 0px;
+    padding: 0%;
+    margin: 0%;
     margin-bottom: 120px;
 }
 
@@ -143,7 +220,6 @@ img.sparkle {
     width: 100%;
     height: auto;
 }
-
 
 
 /* SAPNI POGAS */
@@ -164,15 +240,11 @@ button.sapnis-button {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 20 px;
     padding-top: 30 px;
 }
-
-/* .column1 { */
-
-
-
 
 
 /* FORMA */
@@ -260,7 +332,7 @@ button.sutit-button {
 .col1 img {
     margin-top: 30px;
     margin-bottom: 120px;
-    
+    size: 20px;
 }
 
 
@@ -276,7 +348,7 @@ button.sutit-button {
     float: left;
 }
 
-.col2 li a {
+.col2 li p {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
