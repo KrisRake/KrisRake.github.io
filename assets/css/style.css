@@ -3,14 +3,709 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media screen and (max-width: 2000px) {
 
-  }
-@media (max-width: 768px) {
-  
+    .navbar img {
+        margin: 0px 40px 5px 61px;
+        width: 160px !important;
+        height: 94px !important;
+    }
+
+    #navigation {
+        padding-left: 0px !important;
+    }
+
+    .form-row {
+        padding-left: 360px;
+        padding-right: 360px;
+    }
+
+    .text {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 48%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin: auto;
+    }
+
+    .navbar a {
+        padding: 8px 10px !important;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: left;
+        color: #060606 !important;
+        padding: 0px !important;
+        letter-spacing: 0.8px;
+    }
+
+    .column1 {
+        width: 50% !important;
+        padding-right: 30px !important;
+        position: absolute;
+    }
+    
+    .column2 {
+        width: 50% !important;
+        padding-left: 30px !important; 
+        position: absolute;
+    }
+
+    .orange h4 {
+        margin-bottom: 60px !important;
+    }
+
+    .orange1 {
+        margin: 0px 45px 0px 35px !important;
+    }
+
+    .orange2 {
+        margin-left: 30px !important;
+        margin-right: 55px !important;
+    }
+
+    .orange3 {
+        margin-left: 40px !important;
+    }
+    
+    .col1 img {
+        margin: 30px 0px 50px 43px;
+        size: 20px;
+    }
+
+    .col1 {
+        padding-bottom: 0px !important;
+    }
+
+    .col2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .col3 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .col4 {
+        padding-bottom: 0px !important;
+    }
+
+    #juris {
+        margin-right: 35px;
+    }
+
+    #tiesibas1 {
+        margin-top: 20px;
+        margin-left: 43px;
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+
+    #tiesibas2 {
+        margin-left: 43px;
+        margin-bottom: 10px;
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+
+    .gray p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .gray h4 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    #politika {
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+
+    #list {
+        line-height: 14px !important;
+    }
+
+    #ideja {
+        padding-top: 70px !important;
+        padding-bottom: 50px !important;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 71px;
+    }
+
+    #text2 {
+        padding-top: 112px;
+        padding-bottom: 150px;
+        width: 44%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin: auto;
+    }
+
+
+    #SapnisText1 {
+        margin-bottom: 50px;
+    }
+
+    #SapnisText2 {
+        margin-bottom: 50px;
+    }
+
+    #text4 {
+        width: 40%;
+    }
+
+    #PiesakiSapniColumn1 {
+        padding-right: 170px !important;
+    }
+
+    #PiesakiSapniColumn2 {
+        padding-left: 170px !important;
+    }
+
 }
-@media (max-width: 576px) {
-  
+
+@media screen and (max-width: 1500px) {
+    .form-row {
+        padding-left: 377px;
+        padding-right: 377px;
+    }
+
+
+    #navbar-ul {
+        margin: 15px 5px 0px 5px !important;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0px !important;
+        padding: 17px;
+    }
+
+    #nav-item1 {
+        padding-left: 23px;
+    }
+
+    #nav-item4 {
+        padding-left: 20px;
+    }
+
+    #nav-item5 {
+        padding-left: 19px;
+    }
+
+    #nav-item6 {
+        padding-left: 16px;
+    }
+
+    #nav-item7 {
+        padding-left: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .form-row {
+        padding-right: 230px;
+        padding-left: 230px;
+    }
+
+    #PiesakiSapniColumn1 {
+        padding: 40px !important;
+    }
+
+    #PiesakiSapniColumn2 {
+        padding: 40px !important;
+    }
+
+    #PiesakiSapniText1 {
+        margin-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #nav-menu {
+        display: block;
+        text-align: center;
+        margin: 23px 0px;
+        padding: 0px 5px !important;   
+    }
+
+    #langRow {
+        display: flex !important;
+    }
+
+    #languages1 {
+        display: block !important;
+        margin: 15px 5px !important;
+    }
+
+    #languages2 {
+        display: block !important;
+        margin: 15px 5px !important;
+    }
+
+    #languages3 {
+        display: block !important;
+        margin: 15px 5px !important;
+    }
+
+    #nav-item7 {
+        display: none;
+    }
+
+    .nav-item {
+        padding: 0px !important;
+    }
+
+    #langRow {
+        text-align: center;
+        padding: 0px !important;
+    }
+
+    #languages {
+        display: block;
+        text-align: center;
+        padding: 0px !important;
+    }
+    
+    #forma {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #col1 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    #col2 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    #SapnisText1 {
+        margin-bottom: 85px;
+    }
+
+    #SapnisText2 {
+        margin-bottom: 50px;
+    }
+
+    .col4 {
+        margin-top: 80px !important;
+    }
+
+    .col2 {
+        display: none;
+    }
+
+    .col3 {
+        display: none;
+    }
+
+    .col4 h4 {
+        float: right;
+        width: 100%;
+        display: none;
+    }
+    
+    .col4 p {
+        text-align: right;
+    }
+
+    .col1 #tiesibas1 {
+        display: none;
+    }
+
+    .col1 #tiesibas2 {
+        display: none;
+    }
+
+    .col1 #tiesibas-tablet {
+        display: block !important;
+    }
+
+    #vector1-text {
+        margin-top: 20px;
+        margin-right: 200px;
+    }
+
+    #vector2-text {
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    #vector3-text {
+        margin-top: 20px;
+        margin-right: 200px;
+    }
+  }
+@media screen and (max-width: 768px) {
+
+    .box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .col1 img{
+        float: left;
+        margin-bottom: 20px; 
+    }
+
+
+
+    .col2 {
+        display: none;
+    }
+
+    .col3 {
+        display: none;
+    }
+
+    .col4 {
+        margin-top: 80px !important;
+    }
+
+    .col4 h4 {
+        float: left;
+        width: 100%;
+    }
+    
+    .col4 p {
+        text-align: right;
+    }
+
+    .orange img {
+        margin: 0px 10px;
+    }
+
+    .text p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    #SapnisText1 {
+        margin-bottom: 50px;
+    }
+
+    #SapnisText2 {
+        margin-bottom: 50px;
+    }
+
+
+
+}
+@media screen and (max-width: 576px) {
+
+    .navbar img {
+        margin-left: 30px;
+    }
+
+    .rippedTop {
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: -7% !important;
+        z-index: 2 !important;
+    }
+
+    .rippedBot {
+        position: relative !important;
+        width: 100% !important;
+        z-index: 2 !important;
+        margin-top: -8% !important;
+    }
+
+    #MobPhotos {
+        display: block !important;
+    }
+    
+    #DeskPhotos {
+        display: none !important;
+    }
+
+    .col1 img{
+        float: left;
+        margin-bottom: 12px; 
+    } 
+
+    .column1 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    
+    .column2 {
+        padding-right: 0px !important;
+        padding-left: 0px !important; 
+    }
+
+    #buttonRow {
+        padding: 0px !important;
+    }
+
+    .form-row {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .height{
+        height: 180px  !important;
+    }
+    
+    #logo {
+        padding-top: 0px;
+        margin: 0px 0px 0px 20px;
+        width: 80px !important;
+        height: 50px !important;
+        left: 40px;
+    }
+
+    .navbar {
+        padding-top: 0px;
+    }
+
+    
+
+    .text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+        width: 280px;
+        height: 324px;
+
+    }
+
+    .text p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        line-height: 15px;
+        margin-bottom: 0px !important;
+    }
+
+    .form-control {
+        max-width: 100%;
+        align-content: center;
+    }
+
+    .orange1 {
+        width: 130px;
+        margin: 10px !important;
+    }
+
+    .orange2 {
+        width: 130px;
+        margin: 0px 35px 20px 0px !important;
+    }
+
+    .orange3 {
+        width: 50px;
+        margin: 20px 35px 30px 20px !important;
+    }
+
+    .box h2 {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .orange h4 {
+        margin-bottom: 50px;
+    }
+
+    #row {
+        padding: 0px !important;
+    }
+
+    .col1 img {
+        margin-left: 5px !important;
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .col4 h4 {
+        font-size: 18px !important;
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .col4 p {
+        font-size: 12px !important;
+        float: left !important;
+        line-height: 10px !important;
+    }
+
+    .col4 {
+        padding-top: 0px !important;
+    }
+
+    #politika {
+        display: none;
+    }
+
+    .mini-icons img {
+        height: 25px !important;
+        width: auto !important;
+    }
+
+    .adress {
+        margin-left: 2px;
+    }
+
+    .mini-icons {
+        margin-top: 55px !important;
+    }
+
+    #SapnisText1 {
+        margin-bottom: 30px;
+    }
+
+    #SapnisText2 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    button.sapnis-button {
+        padding: 13px 85px !important;
+    }
+
+    #forma {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #text4 {
+        width: 70%;
+    }
+
+    #PiesakiSapniText1 {
+        font-size: 12px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: 15px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapniText2 {
+        font-size: 12px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: 15px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapniHeader1 {
+        font-size: 18px !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        line-height: 27px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapniHeader2 {
+        font-size: 18px !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        line-height: 27px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapniColumn1 {
+        padding: 20px !important;
+    }
+
+    #PiesakiSapniColumn2 {
+        padding: 40px 20px !important;
+    }
+
+    #PiesakiSapni-text {
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        line-height: 17px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapni {
+        font-size: 36px !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        line-height: 53px !important;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #PiesakiSapni-button {
+        padding: 10px 60px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .rippedTop {
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: -9% !important;
+        z-index: 2 !important;
+    }
+
+    .rippedBot {
+        position: relative !important;
+        width: 100% !important;
+        z-index: 2 !important;
+        margin-top: -12% !important;
+    }
+
+    img.sparkle {
+        z-index: -3 !important;
+        bottom: 20% !important;
+        margin-top: -9% !important;
+    }
+
+    .navRipped {
+        position: relative !important;
+        width: 100% !important;
+        z-index: -1 !important;
+        margin-top: -14% !important;
+        margin-bottom: -1% !important;
+    }
 }
 
 /*---Firefox Bug Fix --*/
@@ -21,13 +716,7 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -57,27 +746,58 @@ figure {
 
 @font-face {
     font-family:'Montserrat-bold';
-    src: url('assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family:'Monsterrat-normal';
-    src: url('assets/fonts/Monsterrat-Normal.ttf') format('truetype');
+    src: url('../fonts/Monsterrat-Normal.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/oswald-v40-latin-regular.eot');
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+p {
+    color: #2F4858;
+}
+
+div {
+    display: block;
 }
 
 /* NavBar*/
 .navbar {
-    margin-top: auto;
+    margin:0 !important;
+	padding: 0px !important;
 }
 
-.navbar a {
-    font-family: Monsterrat;
-    font-style: normal;
-    font-size: 20px;
+.navbar .container-fluid {
+    display: flexbox;
+    float: right;
 }
 
-.navbar img {
-    margin-left: 30px;
+.navbar-toggler {
+    border: 0px solid;
+    padding-right: 20px !important;
 }
 
 .navbar ul {
@@ -89,124 +809,302 @@ figure {
     margin: 0 30px;
 }
 
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/Vector.svg) !important;
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,utf8, <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.87423 7.49996L14.7149 1.65908C15.095 1.27915 15.095 0.664869 14.7149 0.284944C14.335 -0.0949812 13.7207 -0.0949812 13.3408 0.284944L7.49992 6.12582L1.65921 0.284944C1.27911 -0.0949812 0.665002 -0.0949812 0.285077 0.284944C-0.0950258 0.664869 -0.0950258 1.27915 0.285077 1.65908L6.12578 7.49996L0.285077 13.3408C-0.0950258 13.7208 -0.0950258 14.335 0.285077 14.715C0.474417 14.9045 0.72337 14.9997 0.972146 14.9997C1.22092 14.9997 1.4697 14.9045 1.65921 14.715L7.49992 8.87409L13.3408 14.715C13.5303 14.9045 13.7791 14.9997 14.0279 14.9997C14.2766 14.9997 14.5254 14.9045 14.7149 14.715C15.095 14.335 15.095 13.7208 14.7149 13.3408L8.87423 7.49996Z" fill="black"/></svg>')
+
+}
+
+#langRow {
+    display: none;
+}
+
+
 /* Sparkle video */
 .sparkle {
     display: block;
     max-width: 100%;
     height: auto;
-    padding: 0;
-    margin: auto;
-}
-
-/* TEXT */
-.text {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    width: 470px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Monsterrat;
-    margin: auto;
-}
-
-/* IMAGES */
-img.ripped-bot1{
-    z-index: 1;
-    margin-top: 50px;
-}
-
-img.ripped-bot2 {
-    z-index: 1;
+	padding: 0px !important;
 }
 
 img.sparkle {
-    z-index: 0;
+    z-index: -3;
     bottom: 20%;
+    margin-top: -5% ;
 }
 
-.image-stacked {
-    height: auto;
+.sparkle-vid {
+    padding: 0%;
+}
+
+.navRipped {
+    position: relative;
     width: 100%;
-    flex-direction: column;
+    z-index: -1;
+    margin-top: -7%;
+    margin-bottom: -1%;
+}
+
+
+/* IMAGES */
+#MobPhotos {
+    display: none;
+    padding: 0px !important;
+}
+
+#img-width-mob {
+    width: 42%;
+    padding: 0px;
+    height: auto;
+}
+
+#mob-img-1 {
+    width: 58%;
+}
+
+#mob-img-2 {
+    width: 50%;
+}
+
+#mob-img-3 {
+    width: 50%;
+}
+
+#img-stacked-1 {
+    height: 50% !important;
+}
+
+#img-stacked-2 {
+    height: 50% !important;
+}
+
+#FirstRowMob {
+    padding: 0px !important;
+}
+
+#SecRowMob {
+    padding: 0px !important;
+}
+
+.rippedTop {
+    position: relative;
+    width: 100%;
+    margin-bottom: -3%;
+    z-index: 2;
+}
+
+.rippedBot {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin-top: -5%;
 }
 
 .photos {
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    padding: 0px;
-    margin-bottom: 120px;
+    padding: 0px !important;
+}
+
+#kolaza {
+    padding: 0px !important;
+}
+
+.image-stacked {
+    flex-direction: column;
+}
+
+.photos > div{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#img-width {
+    width: 25%;
+    padding: 0px !important;
 }
 
 .img-fluid {
     width: 100%;
-    height: auto;
+    padding: 0px !important;
+    margin: 0px !important;
 }
+
 
 
 
 /* SAPNI POGAS */
 p.sapnisT {
-    font-family: Oswald;
-    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 24px;
+    line-height: 36px;
+    text-align: center;
 }
 
 button.sapnis-button {
     border-radius: 25px;
-    padding: 12px 28px;
-    font-size: 24px;
+    padding: 7px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
     border: none;
-    background-color: #ffcc00;
+    background-color: #FFA800;
     color: #FFFFFF;
+    text-align: center;
 }
 
-.row {
+.pogas {
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 150px 0;
+    text-align: center;
+}
+
+/* FORMA */
+.form-control {
+    align-content: center;
+    margin-top: 12px;
+    height: 43px;
+    background-color: rgba(196, 196, 196, 0.4) !important;
+    border-radius: 6px;
+    color: #2F4858;
+    letter-spacing: -0.015em;
+}
+
+.form-row {
+    padding: auto;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 20 px;
     padding-top: 30 px;
 }
 
-/* .column1 { */
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1em !important;
+}
 
+#col1 {
+    padding-bottom: 0px !important;
+}
 
+#col2 {
+    padding-bottom: 0px !important;
+}
 
-
-
-/* FORMA */
-.form-control {
-    align-content: center;
-    margin-top: 15px;
-    height: 43px;
-    background-color: rgba(196, 196, 196, 0.4);
-    border-radius: 6px;
+.box {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .box {
     align-items: center;
-    font-family: Monsterrat;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 44px;
     text-align: center;
-    width: 650px;
     margin:auto;
     padding: 120px 0px;
 }
 
 .box h2 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.7px;
+}
+
+.box p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color:#2F4858;
+    width: 92%;
+}
+
+#p1 {
+    padding: 7px 0px 6px 0px;
+}
+
+#p2 {
+    padding: 2px 0px 9px 21px;
 }
 
 .input {
     width: 680px;
+    padding-top: 3px !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #2F4858;
+    border: 0px !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-left-style: none !important;
+    border-bottom-style: none !important;
 }
 
-::placeholder {
-    text-align: left;
-    margin-top: 0px;
+.col {
+    padding-bottom: 0px !important;
+    padding-top: 3px !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+}
+
+#col1 {
+    padding-right: 10px;
+    padding-top: 3px !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #2F4858;
+    border: 0px !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-left-style: none !important;
+    border-bottom-style: none !important;
+}
+
+#col2 {
+    padding-left: 10px;
+    padding-top: 3px !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #2F4858;
+    border: 0px !important;
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-left-style: none !important;
+    border-bottom-style: none !important;
 }
 
 .height{
@@ -216,34 +1114,58 @@ button.sapnis-button {
 .field {
     text-align: start;
     width: auto;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-size: 14px;
-    line-height: 17px;
-    float: left;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
     margin-top: 10px;
+    letter-spacing: 0.1px;
 }
 
 button.sutit-button {
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 10px 24px;
     border: none;
-    background-color: #ffcc00;
+    height: 63px;
+    width: 180px;
+    background-color: #FFA800;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
 }
 
+.form-check-input {
+    background-color: rgba(196, 196, 196, 0.4) !important;
+    outline: none !important; 
+}
 
 /* FOOTER ORANGE*/
 .orange {
-    background-color: #FFCB66;
+    background-image: url(../img/Subtract.png);
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 0px 120px;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
 }
 
 .orange h4 {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2F4858;
 }
 
 .orange img {
@@ -253,21 +1175,30 @@ button.sutit-button {
 
 /* FOOTER GRAY */
 .gray {
-    background-color: #2F4858;
+    background-image: url(../img/Union.png);
+    background-size: cover;
+    z-index: 3;
     float: left;
+    position: relative;
+    top: -68px;
 }
 
-.col1 img {
-    margin-top: 30px;
-    margin-bottom: 120px;
-    
+#row {
+    margin-top: 60px;
 }
 
+.MobJuris {
+    display: none;
+}
 
 .col1 p {
     color: #FFFFFF;
     margin: 0 0 ;
     text-align: left;
+}
+
+.col1 > #tiesibas-tablet {
+    display: none;
 }
 
 
@@ -276,11 +1207,14 @@ button.sutit-button {
     float: left;
 }
 
-.col2 li a {
+.col2 li p {
     text-decoration: none;
-    font-size: 20px;
     color: #FFFFFF;
-    margin: 30px 0px;
+    margin: 20px 0px 10px 0px;
+}
+
+#ideja {
+    margin: 30px 0px 10px 0px !important;
 }
 
 .col2 li {
@@ -304,26 +1238,381 @@ button.sutit-button {
 
 
 .col3 p {
-    padding: 5px 0px;
     color: #FFFFFF;
     text-align: left;
-    font-size: 18px;
 }
 
 .col4 p {
     text-align: right;
     color: #FFFFFF;
-    font-size: 18px;
 }
 
 .mini-icons {
     text-align: right;
-    margin: 70px 0px;
+    margin: 45px 0px;
 }
 
 .mini-icons img {
     margin: 0px 10px;
 }
+
+/* Ideja-Juris */
+
+.juris_img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#juris_bilde {
+    z-index: -1;
+    padding: 0px !important;
+    margin-bottom: 0px!important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#rectangle {
+    z-index: -1;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#juris_text {
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin: 20em 280px 0px;
+    text-align: center;
+}
+
+.juris_RippedTop {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: -45em;
+}
+
+
+.juris_RippedBot {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+    margin-bottom: -45em;
+}
+
+/* ideja-carousel */
+
+.carousel > p {
+    color: #2F4858;
+}
+
+
+/* Piesaki Sapni */
+
+#text3 {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#PiesakiSapni-text {
+    font-size: 24px;
+}
+
+#img-width1 {
+    width: 22%;
+}
+
+#img-width2 {
+    width: 21%;
+    padding: 0% !important;
+    height: 100%;
+}
+
+#img-width3 {
+    width: 22%;
+}
+
+#img-width4 {
+    width: 35%;
+}
+
+#mob-img-5 {
+    width: 38%;
+}
+
+#mob-img-6 {
+    width: 62%;
+}
+
+#mob-img-7 {
+    width: 49%;
+}
+
+#img-width-mob_PiesakiSapni {
+    width: 51%;
+    padding: 0% !important;
+}
+
+.PiesakiSapniT {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.PiesakiSapniH {
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#PiesakiSapniText1 {
+    margin-bottom: 153px;
+}
+
+#PiesakiSapniText2 {
+    margin-bottom: 64px;
+}
+
+#PiesakiSapni {
+    margin: 30px 0px 10px 0px !important;
+    padding-top: 70px !important;
+    padding-bottom: 50px !important;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+}
+
+
+/* SAPNU BANKA */
+
+#text5 {
+    padding-top: 0px !important;
+}
+
+#MerkisText {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.vector1 {
+    align-items: right;
+    text-align: right;
+    padding-right: 35px !important;
+}
+
+.vector-text1 {
+    align-items: left;
+    text-align: left;
+    padding-left: 35px !important;
+    width: 60% !important;
+}
+
+#vector1-text {
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+#saule {
+    margin: 30px auto;
+}
+
+.vector2 {
+    align-items: left;
+    text-align: left;
+    padding-left: 35px !important;
+}
+
+.vector-text2 {
+    align-items: right;
+    text-align: right;
+    padding-right: 35px !important;
+    width: 60%;
+}
+
+#vector2-text {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#kalni {
+    margin: 40px auto;
+}
+
+.vector3 {
+    align-items: right;
+    text-align: right;
+    padding-right: 35px !important;
+}
+
+.vector-text3 {
+    align-items: left;
+    text-align: left;
+    padding-left: 35px !important;
+    width: 60% !;
+}
+
+#vector3-text {
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+#brilles {
+    margin: 30px auto;
+}
+
+#MisijaHeader {
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 60px;
+}
+
+#MisijaText {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 60px auto 200px;
+}
+
+.SapnuBankaOrange1 {
+    background-image: url(../img/OrangeBackground.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#group14 {
+    margin: 50px;
+}
+
+.SapnuBankaOrange2 {
+    background-image: url(../img/OrangeBackground.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#group15 {
+    margin: 50px;
+}
+
+#groupText {
+    color: #FFFFFF !important;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 110px !important;
+}
+
+.Orange1-img {
+    width: 450px;
+    margin: auto;
+}
+
+.Orange2-img {
+    width: 450px;
+    margin: auto;
+}
+
+.Orange1-text {
+    margin: 50px 270px;
+}
+
+.Orange2-text {
+    margin: 50px 270px;
+}
+
+#SapnusAtlasis {
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 60px;
+}
+
+#vector4 {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+}
+
+#vector5 {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+}
+
+#SapnuAtlasisText1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 25px 200px 50px;
+}
+
+#SapnuAtlasisText2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 50px 200px 50px;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
