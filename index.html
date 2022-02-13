@@ -4,71 +4,93 @@
     
     <meta charset="utf-8">
 	<title>Sparkle Heart</title>
-	<meta name="description" content="">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<link rel="icon" type="image/x-icon" href="assets/favicon/GoldenV2Logo 3.ico">
 </head>
 <body>
 
 		<!--NAVBAR-->
-	<nav class="navbar navbar-expand-lg navbar-light">
 
-		<div class="container-fluid">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+	<nav class="navbar d-flex flex-nowrap w-100 navbar-expand-lg navbar-light col-lg-12">
+		<div class="container-fluid" id="navigation">
+			<a href="index.html" class="navbar-brand">
+				<img id="logo" src="assets/img/BlackLogo 3.jpg" alt="" width="140" height="85">
+			</a>
+			<button class="navbar-toggler navbar-toggler-right ml-auto hidden-sm-up float-xs-right" type="button" 
+			data-toggle="collapse" data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" 
+			aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
 			</button>
 
-		  <div class="collapse navbar-collapse" id="navbarResponsive">
-			<img id="logo" src="assets/img/BlackLogo 3.jpg" alt="" width="140" height="85">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Ideja</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Piesaki Sapni</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Uzņēmējiem</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Sapņu banka</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Sapņus atbalsta</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">99 Iedvesmas Stāsti</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">LV</a>
-			  </li>
-			</ul>
-		  </div>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto mb-2 mb-lg-0" id="navbar-ul">
+				<div class="row justify-content-center" id="langRow">
+					<li class="nav-item col-2" id="languages1">
+						<a class="nav-link" id="nav-menu" href="#">LV</a>
+					</li>
+					<li class="nav-item col-2" id="languages2">
+						<a class="nav-link" id="nav-menu" href="#">EN</a>
+					</li>
+					<li class="nav-item col-2" id="languages3">
+						<a class="nav-link" id="nav-menu" href="#">RU</a>
+					</li>
+				</div>
+				<li class="nav-item" id="nav-item1">
+					<a class="nav-link" id="nav-menu" href="ideja.html">Ideja</a>
+				</li>
+				<li class="nav-item" id="nav-item2">
+					<a class="nav-link" id="nav-menu" href="PiesakiSapni.html">Piesaki Sapni</a>
+				</li>
+				<li class="nav-item" id="nav-item3">
+					<a class="nav-link" id="nav-menu" href="Uznemejiem.html">Uzņēmējiem</a>
+				</li>
+				<li class="nav-item" id="nav-item4">
+					<a class="nav-link" id="nav-menu" href="SapnuBanka.html">Sapņu banka</a>
+				</li>
+				<li class="nav-item" id="nav-item5">
+					<a class="nav-link" id="nav-menu" href="SapnusAtbalsta.html">Sapņus atbalsta</a>
+				</li>
+				<li class="nav-item" id="nav-item6">
+					<a class="nav-link" id="nav-menu" href="99Iedvesmas.html">99 Iedvesmas Stāsti</a>
+				</li>
+				<li class="nav-item" id="nav-item7">
+					<a class="nav-link" id="nav-menu" href="#">LV</a>
+				</li>
+				</ul>
+			</div>
 		</div>
-	  </nav>
+	</nav>
 
+	   <!--SPARKLE VIDEO-->
 
-	  <!--SPARKLE VIDEO-->
 	<section>
+		<img src="assets/img/navRipped.png" class="navRipped" alt="Responsive image">
 		<div class="sparkle-vid">
-			<img src="assets/img/Sparkle Video 1.jpg" class="col-md-12 row sparkle">
+			<img src="assets/img/Sparkle Video 1.jpg" class="col-md-12 col-lg-12 sparkle no-gutters">
 		</div>
 	</section>
 
 
 		<!--TEXT-->
-	<div class="text">
+
+	<div class="text" id="text1">
 		<div>
-			<p class="text-justify">SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus.
+			<p >SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus.
 				Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem. 
 				Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
 			</p>
@@ -76,29 +98,49 @@
 	</div>
 
 
-		<!--IMAGES-->
-	<div class="col-sm-12 col-md-12 photos">
-		<img src="assets/img/Zanda_1.jpg" class="img-fluid" alt="Responsive image">
-		<img src="assets/img/Sibilla_4.jpg" class="img-fluid" alt="Responsive image">
-		<div class="image-stacked">
-			<img src="assets/img/Brinuma_meita-15.jpg" class="img-fluid">
-			<img src="assets/img/Alina_1 1.jpg" class="img-fluid">
+		<!--IMAGES DESKTOP-->
+	<div class="container-fluid photos" id="DeskPhotos">
+		<img src="assets/img/ripped 6 7.png" class="rippedTop" id="deskRipTop">
+		<div class="row" id="kolaza">
+			<img src="assets/img/Zanda_1.jpg" class="img-fluid" id="img-width" alt="Responsive image">
+			<img src="assets/img/Sibilla_4.jpg" class="img-fluid" id="img-width" alt="Responsive image">
+			<div class="image-stacked" id="img-width">
+				<img src="assets/img/Brinuma_meita-15.jpg" class="img-fluid" alt="Responsive image">
+				<img src="assets/img/Alina_1 1.jpg" class="img-fluid" alt="Responsive image">
+			</div>
+			<img src="assets/img/Anda_2 1.jpg" class="img-fluid" id="img-width" alt="Responsive image">
 		</div>
-		<img src="assets/img/Anda_2 1.jpg" class="img-fluid" alt="Responsive image">
+		<img src="assets/img/ripped 6 8.png" class="rippedBot" id="deskRipBot">
 	</div>
 	
-	
-		<!--SAPNI POGAS-->
 
-	<div class="float-container">
-		<div class="row">
-			<div class="column1 col-lg-6 col-md-5">
-				<p class="sapnisT">VĒLIES PIEPILDĪT SAVU SAPNI?</p>
-				<button class="sapnis-button">Uzņēmējiem</button>
+		<!--IMAGES MOBILE-->
+	<div class="container-fluid mobile" id="MobPhotos">
+		<img src="assets/img/ripped 6 7.png" class="rippedTop" id="mobRipTop">
+		<div class="row" id="FirstRowMob">
+			<div class="image-stacked" id="img-width-mob">
+				<img src="assets/img/Brinuma_meita-15.jpg" class="img-fluid" id="img-stacked-1" alt="Responsive image">
+				<img src="assets/img/Alina_1 1.jpg" class="img-fluid" id="img-stacked-2" alt="Responsive image">
 			</div>
-			<div class="column2 col-lg-6 col-md-5">
-				<p class="sapnisT">VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</p>
+			<img src="assets/img/Anda_2 1.jpg" class="img-fluid" id="mob-img-1" alt="Responsive image">
+		</div>
+		<div class="row" id="SecRowMob">
+			<img src="assets/img/Zanda_1.jpg" class="img-fluid" id="mob-img-2" alt="Responsive image">
+			<img src="assets/img/Sibilla_4.jpg" class="img-fluid" id="mob-img-3" alt="Responsive image">
+		</div>
+		<img src="assets/img/ripped 6 8.png" class="rippedBot" id="mobRipBot">
+	</div>
+
+		<!--SAPNI POGAS-->
+	<div class="container pogas">
+		<div class="row row-cols-2" id="buttonRow">
+			<div class="col-12 col-lg-6 col-xl-6 col-sm-6 column1">
+				<p class="sapnisT" id="SapnisText1">VĒLIES PIEPILDĪT SAVU SAPNI?</p>
 				<button class="sapnis-button">Sapņotājiem</button>
+			</div>
+			<div class="col-12 col-lg-6 col-xl-6 col-sm-6 column2">
+				<p class="sapnisT" id="SapnisText2">VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</p>
+				<button class="sapnis-button">Uzņēmējiem</button>
 			</div>
 		</div>
 	</div>
@@ -106,78 +148,80 @@
 		<!--FORMA-->
 	
 	<form>
-		<div class="box">
+		<div class="container-fluid box">
 			<h2>SAZINĀTIES AR MUMS</h2>
-			<div class="row">
-				<div class="col">
-					<input type="text" class="form-control" placeholder="Vārds, Uzvārds*">
+			<div class="row form-row" id="forma">
+				<div class="col-12 col-xl-6 col-lg-6" id="col1">
+					<input type="text" class="form-control" placeholder="Vārds, Uzvārds">
 				</div>
-				<div class="col">
+				<div class="col-12 col-xl-6 col-lg-6" id="col2">
 					<input type="text" class="form-control" placeholder="E-pasts*">
 				</div>
-				<div class="input">
+				<div class="input col-lg-12">
 					<input type="text" class="form-control" placeholder="Telefons*">
-					<input type="text" class="form-control height" placeholder="Jautājums, vai komentārs*">
+					<textarea class="form-control height" placeholder="Jautājums, vai komentārs*"></textarea>
 					<div class="field">
-						<P>* obligāti aizpildāmie lauki</P>
+						<P id="p1">* obligāti aizpildāmie lauki</P>
 					</div>
 					<div class="form-check field">
-					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-					<label class="form-check-label" for="defaultCheck1">
-						<P>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</P>
-					</label>
+						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						<label class="form-check-label" for="defaultCheck1">
+							<P id="p2">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</P>
+						</label>
 					</div>
 				</div>  
 			</div>
-			<button class="sutit-button">Sapņotājiem</button>
+			<button class="sutit-button">Sūtīt</button>
 		</div>
 	</form>
 
-	<!--FOOTER ORANGE-->
+		<!--FOOTER ORANGE-->
 
 	<section>
 		<div class="orange">
-			<h4><b>ATBALSTĪTĀJI</b></h4>
-			<img src="assets/img/getlogo1.png" class="image-fluid" alt="responsive image">
-			<img src="assets/img/Group.png" class="image-fluid" alt="responsive image">
-			<img src="assets/img/Citybee-logo 1.png" class="image-fluid" alt="responsive image">
-			<img src="assets/img/logo1 1.png" class="image-fluid" alt="responsive image">
+			<h4>ATBALSTĪTĀJI</h4>
+			<img src="assets/img/getlogo1.png" class="image-fluid orange1" alt="responsive image">
+			<img src="assets/img/Group.png" class="image-fluid orange1" alt="responsive image">
+			<img src="assets/img/Citybee-logo 1.png" class="image-fluid orange2" alt="responsive image">
+			<img src="assets/img/logo1 1.png" class="image-fluid orange3" alt="responsive image">
 		</div>
 	</section>
 
-	<!--FOOTER GRAY-->
+		<!--FOOTER GRAY-->
 	
 	<footer>
 		<div class="container-fluid gray">
-			<div class="row">
-				<div class="col1 col-md-3 col-lg-3">
+			<div class="row" id="row">
+				<div class="col1 col-12 col-md-7 col-lg-3 col-sm-5">
 					<img src="assets/img/GoldenV2Logo 3.png" alt="">
-					<p class="tiesibas">© SparkleHeart 2020.</p>
-					<p class="tiesibas">Visas tiesības aizsargātas</p>
+					<p class="MobJuris" id="juris">Juris Gogulis</p>
+					<p class="tiesibas" id="tiesibas1">© SparkleHeart 2020.</p>
+					<p class="tiesibas" id="tiesibas2">Visas tiesības aizsargātas</p>
+					<p class="tiesibas" id="tiesibas-tablet">© SparkleHeart 2020. Visas tiesības aizsargātas</p>
 				</div>
 				<div class="col2 col-md-3 col-lg-3">
 					<ul>
 						<li>
-							<a class="footer-link">Ideja</a>
+							<p class="footer-link" id="list">Ideja</p>
 						</li>
 						<li>
-							<a class="footer-link">Piesaki sapni</a>
+							<p class="footer-link" id="list">Piesaki sapni</p>
 						</li>
 						<li>
-							<a class="footer-link">Uzņēmējiem</a>
+							<p class="footer-link" id="list">Uzņēmējiem</p>
 						</li>
 						<li>
-							<a class="footer-link">Sapņu banka</a>
+							<p class="footer-link" id="list">Sapņu banka</p>
 						</li>
 						<li>
-							<a class="footer-link">Sapņus atbalsta</a>
+							<p class="footer-link" id="list">Sapņus atbalsta</p>
 						</li>
 						<li>
-							<a class="footer-link">Iedvesmas stāsti</a>
+							<p class="footer-link" id="list">Iedvesmas stāsti</p>
 						</li>
 					</ul>
 				</div>
-				<div class="col3 col-md-3 col-lg-3">
+				<div class="col3 col-12 col-md-3 col-lg-3">
 					<h4>Biedrība SparkleHeart</h4>
               		<div>
                   		<p>Reģistrācijas nr. 40008293119</p>
@@ -185,21 +229,25 @@
                   		<p>LV52HABA0551047652465</p>
               		</div>
 				</div>
-				<div class="col4 col-md-3 col-lg-3">
-					<h4>Juris Gogulis</h4>
-              		<div>
+				<div class="col4 col-12 col-md-5 col-lg-3 col-sm-7">
+					<h4 id="juris">Juris Gogulis</h4>
+              		<div id="rekviziti">
                   		<p class="adress">juris.gogulis@sparkleheart.org</p>
                    		<p class="adress">+37126890034</p>
                    		<p class="adress">Biķernieku iela 24a - 5, LV-1006</p>
-                   		<div class="mini-icons"">
+                   		<div class="mini-icons">
                             <img src="assets/img/fb.png" width="18px" height="36px">
                             <img src="assets/img/ig.png" width="36px" height="36px">
                       	</div>
-						<p class="politika">Privātuma politika</p>
+						<p class="politika" id="politika">Privātuma politika</p>
               		</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
